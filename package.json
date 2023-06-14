@@ -1,0 +1,33 @@
+{
+  "name": "steam-box",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node-dev bin/www",
+    "serve": "node bin/www",
+    "api": "cross-env NAME=\"${npm_config_name}\" PORT=\"${npm_config_port}\" node-dev bin/www"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "alipay-sdk": "^3.2.0",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.20.2",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^6.1.0",
+    "iconv-lite": "^0.6.3",
+    "images": "^3.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.5.2",
+    "md5-node": "^1.0.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "redis": "^4.0.4",
+    "request": "^2.88.2",
+    "wxpay-v3": "^3.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "node-dev": "^7.1.0"
+  }
+}
